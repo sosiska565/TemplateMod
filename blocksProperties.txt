@@ -1,0 +1,49 @@
+name // Уникальное имя блока (например, "iron-turret"), задается в конструкторе
+size = 1 // Размер блока в клетках (например, 1x1, 2x2); по умолчанию 1
+health = -1 // Количество здоровья блока; -1 означает, что используется значение по умолчанию (зависит от размера)
+baseExplosivity = 0f // Базовая взрывоопасность блока (влияет на взрыв при разрушении)
+itemCapacity = 10 // Сколько предметов может хранить блок (если hasItems = true)
+liquidCapacity = 10f // Сколько жидкости может хранить блок (если hasLiquids = true)
+powerCapacity = 10f // Сколько энергии может хранить блок (если hasPower = true)
+powerProduction = 0f // Сколько энергии производит блок за тик (если producesPower = true)
+update = false // Обновляется ли блок каждый тик (например, для анимации или логики)
+solid = true // Является ли блок твердым (препятствует движению юнитов)
+destructible = false // Может ли блок быть разрушен
+breakable = false // Может ли блок быть сломан игроком
+rebuildable = true // Может ли блок быть восстановлен после разрушения
+placeablePlayer = true // Может ли игрок размещать этот блок
+placeableLiquid = false // Можно ли размещать блок на жидкостях
+rotate = false // Может ли блок быть повернут при размещении
+quickRotate = true // Быстрое вращение при размещении (если rotate = true)
+hasItems = false // Может ли блок хранить предметы
+hasLiquids = false // Может ли блок хранить жидкости
+hasPower = false // Требуется ли блоку энергия
+outputsPower = false // Производит ли блок энергию
+consumesPower = true // Потребляет ли блок энергию
+conductivePower = false // Проводит ли блок энергию (например, как силовые узлы)
+hasShadow = true // Отбрасывает ли блок тень
+buildVisibility = BuildVisibility.shown // Видимость в меню строительства: shown (виден), hidden (скрыт), debugOnly (только в дебаге), editorOnly (только в редакторе), sandboxOnly (только в песочнице)
+category = Category.effect // Категория блока в меню (например, turret, production, defense)
+buildCostMultiplier = 1f // Множитель стоимости строительства (1f = стандартная стоимость)
+buildTimeMultiplier = 1f // Множитель времени строительства (1f = стандартное время)
+buildCost = 0f // Базовая стоимость строительства (обычно переопределяется через requirements)
+requirements = new ItemStack[0] // Требования для строительства (массив ItemStack, например, ItemStack.with(Items.copper, 100))
+alwaysUnlocked = false // Разблокирован ли блок по умолчанию
+group = BlockGroup.none // Группа блока (например, walls, turrets, для логики размещения)
+ambientSound = Sounds.none // Фоновый звук блока
+ambientSoundVolume = 0f // Громкость фонового звука
+sync = false // Синхронизируется ли блок между клиентом и сервером
+timers = 0 // Количество таймеров, используемых блоком
+timerDump = null // Таймер для сброса предметов/жидкостей (если null, не используется)
+configurable = false // Можно ли настроить блок (например, через интерфейс)
+saveConfig = false // Сохраняется ли конфигурация блока
+copyConfig = true // Копируется ли конфигурация при размещении
+clearOnDoubleTap = false // Очищается ли конфигурация при двойном нажатии
+drawLiquidLight = true // Отображает ли блок свет от жидкости (если hasLiquids = true)
+underBullets = false // Находится ли блок "под пулями" (например, конвейеры)
+forceDark = false // Принудительно темный фон для блока
+clipSize = -1f // Размер области отсечения для отрисовки (-1 = авто)
+fogRadiusMultiplier = 1f // Множитель радиуса видимости в тумане войны
+placeOverlapRange = 0f // Радиус, в котором блок перекрывает другие при размещении
+placeOverlapMargin = 0f // Дополнительный отступ для перекрытия
+disableOverlapCheck = false // Отключает ли проверку перекрытия при размещении
