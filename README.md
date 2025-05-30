@@ -1,48 +1,48 @@
 # Ultimate Mindustry Mod
 
-Welcome to the **Ultimate Mindustry Mod**, a comprehensive expansion that unlocks the full potential of the Mindustry API! This mod introduces a wide array of blocks, units, weapons, and more, pushing the limits of what’s possible within the game. Whether you're a builder, a strategist, or an explorer, this mod enhances your experience with innovative content.
+Добро пожаловать в **Ultimate Mindustry Mod** — всестороннее расширение, раскрывающее весь потенциал API Mindustry! Этот мод добавляет множество новых блоков, юнитов, оружия и других элементов, расширяя границы возможного в игре. Будь вы строителем, стратегом или исследователем, этот мод обогатит ваш игровой опыт инновационным контентом.
 
-![Mod Banner](https://via.placeholder.com/800x200.png?text=Ultimate+Mindustry+Mod+Banner)  
-*Banner image placeholder – replace with your custom artwork!*
+![Баннер мода](https://avatanplus.com/files/resources/original/58d024c1cfae215aed0f953b.png)  
+*Место для баннера — замените на своё изображение!*
 
-## Features
+## Особенности
 
-- **Diverse Blocks**: From advanced turrets and drills to unique production facilities, explore a vast collection of new structures.
-- **Custom Units**: Command a fleet of specialized units with unique abilities and designs.
-- **Enhanced Weapons**: Discover new ammunition types, bullet patterns, and explosive effects.
-- **Environmental Interactions**: Introduce liquid-based mechanics, power systems, and environmental hazards.
-- **API Showcase**: Demonstrates the full range of Mindustry API capabilities, including animations, logic blocks, and more.
+- **Разнообразные блоки**: От продвинутых турелей и буров до уникальных производственных объектов — исследуйте огромный набор новых построек.
+- **Кастомные юниты**: Управляйте флотом специализированных юнитов с уникальными способностями и дизайнами.
+- **Улучшенное оружие**: Откройте новые типы боеприпасов, паттерны пуль и взрывные эффекты.
+- **Взаимодействие с окружающей средой**: Внедряйте механики на основе жидкостей, энергосистемы и экологические угрозы.
+- **Демонстрация API**: Мод демонстрирует полный спектр возможностей API Mindustry, включая анимации, логические блоки и многое другое.
 
-This mod is designed to be a testament to the flexibility of the Mindustry modding API, covering everything from basic blocks to complex behaviors.
+Этот мод создан как свидетельство гибкости API моддинга Mindustry, охватывая всё — от базовых блоков до сложных механик.
 
-## Installation
+## Установка
 
-1. **Download the Mod**:
-   - Grab the latest release from the [Releases Page](#) or build it yourself (see below).
-   - The mod file will be a `.jar` archive (e.g., `UltimateMindustryMod.jar`).
+1. **Скачайте мод**:
+   - Загрузите последнюю версию с [страницы релизов](#) или соберите мод самостоятельно (см. ниже).
+   - Файл мода будет в формате `.jar` (например, `UltimateMindustryMod.jar`).
 
-2. **Install in Mindustry**:
-   - Place the `.jar` file in the `mods` folder located at:
+2. **Установите в Mindustry**:
+   - Поместите `.jar` файл в папку `mods`, которая находится по адресу:
      - Windows: `%appdata%/Mindustry/mods/`
      - Linux/Mac: `~/.mindustry/mods/`
-   - Launch Mindustry, and the mod will be automatically detected.
+   - Запустите Mindustry, и мод будет автоматически обнаружен.
 
-3. **Verify**:
-   - Check the mod list in the game’s main menu to ensure the mod is active.
+3. **Проверьте**:
+   - Убедитесь, что мод активен, проверив список модов в главном меню игры.
 
-## Usage
+## Использование
 
-- **Explore New Content**: New blocks and units are available in their respective categories (e.g., Turrets, Production, Units).
-- **Customize**: Adjust settings via the in-game mod menu or use logic blocks to integrate with existing setups.
-- **Experiment**: Test the mod’s features in sandbox mode to see the full range of possibilities.
+- **Исследуйте новый контент**: Новые блоки и юниты доступны в соответствующих категориях (например, Турели, Производство, Юниты).
+- **Настраивайте**: Изменяйте настройки через внутриигровое меню модов или используйте логические блоки для интеграции с существующими схемами.
+- **Экспериментируйте**: Тестируйте возможности мода в режиме песочницы, чтобы увидеть весь спектр функций.
 
-Refer to the in-game tooltips for detailed information on each new element.
+Подробную информацию о каждом новом элементе вы найдете во внутриигровых подсказках.
 
-## Building from Source
+## Сборка из исходников
 
-To build the mod yourself:
+Чтобы собрать мод самостоятельно:
 
-1. **Clone the Repository**:
+1. **Склонируйте репозиторий**:
    ```bash
    git clone https://github.com/yourusername/UltimateMindustryMod.git
    cd UltimateMindustryMod
